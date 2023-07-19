@@ -9,10 +9,6 @@
 
 /* this is navbar style scetion */
 
-/* header{
-    margin-bottom: px;
-} */
-
 .nav-container{
     background-color: rgb(255, 255, 255);
     /* position: relative; */
@@ -96,12 +92,19 @@ a:hover{
     transform: scale(1.1);
 }
 
+/* This is the herader scetion end */
+
+
+/* This is the body scetion */
+/* This is banner section */
+
 .banner-container{
     display: flex;
     max-width: 1920px;
     height: 600px;
     flex-shrink: 0;
     margin: 0px auto 0;
+    background-color: #fff2fa;
     
 }
 
@@ -210,7 +213,7 @@ a:hover{
 .banner-image{
     width: 50%;
     height: auto;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .banner-image img{
@@ -221,11 +224,14 @@ a:hover{
     background-color: transparent;
 }
 
+/* This is About section */
 
 .about{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1920px;
+    margin: 0 auto;
     margin-top: 55px;
     padding: 0 160px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
@@ -310,10 +316,446 @@ a:hover{
     line-height: 45px;
 }
 
+/* This is online games section */
 
+.online-games{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 90px;
+    margin-bottom: 120px;
+    max-width: 1920px;
+    margin: 120px auto;
 
+    
+}
 
+.online-games-text{
+    text-align: center;
+}
 
+.online-games-text1{
+    color: #0B0223;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.online-games-text .funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.online-games-text2{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+.online-games-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 160px;
+}
+
+.card{
+    width: 342px;
+    height: 400px;
+    flex-shrink: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+
+}
+
+.card img{
+    margin-bottom: 20px;
+}
+
+.card caption{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+/* This is play games-games2 section */
+
+.play-games{
+    display: flex;
+    max-width: 1920px;
+    padding: 50px 0;
+    margin: 0px auto;
+
+}
+
+.play-games-text{
+    display: block;
+    width: 50%;
+    text-align: right;
+    align-items: center;
+    justify-content: right;
+    margin: 250px 5px 200px 300px;
+}
+
+.play-games-text h1{
+    text-align: right;
+    color: #0B0223;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    width: 341px;
+    height: 180px;
+    padding-left: 0;
+    margin-left: 0;
+
+}
+
+.play{
+    text-align: right;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-games-p{
+    width: 353px;
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    
+}
+
+.play-games-img{
+    width: 50%;
+    margin-right: 121px;
+    
+}
+
+.play-games-img img{
+    width: 634.833px;
+    height: 650px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.3);
+}
+
+.sub-img img{
+    width: 318.5px;
+    height: 365.083px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    /* border: 5px solid #FFF; */
+    margin: -240px -200px 200px -180px;
+}
+
+/* .play-games2{
+    display: flex;
+    max-width: 1920px;
+    padding-left: px;
+    margin: 120px auto;
+    flex-direction: row-reverse;
+}  */
+
+/* .play-games-text2{
+    display: block;
+    width: 50%;
+    text-align: right;
+    align-items: center;
+    justify-content: right;
+    margin: 250px 5px 200px 400px;
+}  */
+
+/* .play-games-text2 h1{
+    text-align: left;
+    color: #0B0223;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    width: 341px;
+    height: 180px;
+    padding-right: 0;
+    margin-right: 0;
+} */
+
+/* .play2{
+    text-align: right;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+ 
+} */
+
+/* .play-games-p2{
+    width: 353px;
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    
+} */
+
+/* .play-games-img2{
+    width: 50%;
+    margin-right: 200px;
+} */
+
+/* .play-games-img2 img{
+    width: 634.833px;
+    height: 650px;
+    flex-shrink: 0;
+    border-radius: 8px;
+} */
+
+/* .sub-img2 img{
+    width: 318.5px;
+    height: 365.083px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    margin: 240px 200px -200px 180px;
+} */
+
+/* This is careers section */
+
+.careers{
+    display: flex;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: white;
+    height: 821px;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 180px;
+}
+
+.careers-text{
+    width: 50%;
+    text-align: left;
+    margin-top: 120px;
+}
+
+.careers-text1{
+    margin-bottom: 24px;
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+}
+
+.careers-text2{
+    margin-bottom: 32px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.sub-text{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.sub-text-left{
+    width: 337px;
+    height: 240px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 200% */
+}
+
+.sub-text-right{
+    width: 246px;
+    height: 240px;
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 200% */
+}
+
+.careers-btn{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    border: none;
+    border-radius: 48px;
+    background: #FFF;
+    color: #FF42A5;
+    font-size: 20px;
+    font-weight: 600;
+    transition: transform .4s;
+}
+
+.careers-btn:hover{
+    border: 2px solid white;
+    background: #FF42A5;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    transform: scale(1.1);
+}
+
+.careers-image{
+    width: 50%;
+    object-fit: cover;
+
+}
+
+.feature{
+    max-width: 1920px;
+    margin: 120px auto;
+}
+
+.feature-option{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 10px;
+    
+
+}
+
+.option{
+    width: 243px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #0B0223;
+    transition: transform .5s;
+}
+
+.option:hover{
+    border: 2px solid #FF42A5;
+    background-color: #ffffff;
+    color: #FF42A5;
+    transform: scale(1.1);
+}
+
+.option img{
+    width: 60px;
+    height: 60px;
+}
+
+/* This is the body section end */
+
+/* This is footer section */
+
+footer{
+    max-width: 1920px;
+    height: 636px;
+    flex-shrink: 0;
+    background-color: #0B0223;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 50%;
+    color: #ffffff;
+}
+
+.logo-g{
+    color: #FF42A5;
+}
+
+.footer-contant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 75px;
+}
+
+.footer-cont1{
+    display: flex;
+    gap: 60px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 65px;
+}
+
+.footer-icons{
+    font-size: 40px;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 65px;
+}
+
+.footer-cont2{
+    display: flex;
+    gap: 60px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+.copyright{
+    color: #FFF;
+    text-align: center;
+
+}
+
+/* This is the footer scetion end */
 
 
 
@@ -334,4 +776,6 @@ a:hover{
         gap: 10px;
         
     }
+
+    
 }
